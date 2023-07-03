@@ -1,0 +1,40 @@
+.home{
+  width: 60%;
+  margin: 100px auto;
+  background-color: crimson;
+  padding: 15px;
+}
+
+.card{
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.updateForm {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  background-color: #060606cc;
+  padding: 15px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 2s all ease;
+}
+.updateForm form{
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: darkcyan;
+}
+.btnWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
